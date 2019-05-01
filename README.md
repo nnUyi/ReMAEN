@@ -6,7 +6,7 @@
 # Abstract
    Single image deraining is an ill-posed inverse problem due to the presence of non-uniform rain shapes, directions, and densities in images. In this paper, we propose a novel progressive single image deraining method named Recurrent Multiscale Aggregation and Enhancement Network (ReMAEN). Differing from previous methods, ReMAEN contains a symmetric structure where recurrent blocks with shared channel attention are applied to select useful information collaboratively and remove rain streaks stage by stage. In ReMAEN, a Multi-scale Aggregation and Enhancement Block (MAEB) is constructed to detect multi-scale rain details. Moreover, to better leverage the rain details from rainy images, ReMAEN enables a symmetric skipping connection from low level to high level. Extensive experiments on synthetic and real-world datasets demonstrate that our method outperforms the state-of-the-art methods tremendously. Furthermore, ablation studies are conducted to show the improvements obtained by each module in ReMAEN.
 
-<p align='center'><img src='./materials/ReMAEN.png' height="300px"/></p>
+<p align='center'><img src='./materials/ReMAEN.png' height="600px"/></p>
 
 # Dataset
 ## Synthetic Datasets
@@ -84,8 +84,8 @@
    
 ## Average PSNR and SSIM values on five synthetic datasets
    | Methods | Rain100L | Rain100H | Rain800 | Rain1200 | Rain1400 |
-   | -- | PSNR/SSIM | PSNR/SSIM | PSNR/SSIM | PSNR/SSIM | PSNR/SSIM |
    | :-----: | :-----: | :----: | :-----: | :-----: | :-----: |
+   | -- | PSNR/SSIM | PSNR/SSIM | PSNR/SSIM | PSNR/SSIM | PSNR/SSIM |
    | JORDER (CVPR'17)[1] | 36.11/0.970 | 22.15/0.674 | 22.24/0.776 | 24.32/0.862 | 27.55/0.853 |
    | DID-MDN (CVPR'18)[2] | 25.70/0.858 | 17.39/0.612 | 21.89/0.795 | 27.95/0.908 | 27.99/0.869 |
    | DualCNN (CVPR'18)[3] | 26.87/0.860 | 14.23/0.468 | 24.11/0.821 | 23.38/0.787 | 24.98/0.838 |
