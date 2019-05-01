@@ -73,7 +73,7 @@
 # Results
    - Recurrent rain removal analysis
       <div align="center">
-         <img src="./materails/PSNR.png" height="300px" alt="PSNR" >
+         <img src="./materials/PSNR.png" height="300px" alt="PSNR" >
          <img src="./materials/SSIM.png" height="300px" alt="SSIM" >
       </div>
    - Edge loss analysis
