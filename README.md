@@ -68,13 +68,14 @@
                                               --batch_size 32
    ```
    - **Where should your datasets place?**
-      - In the 32rd and 33rd lines of settings.py, you can see the --data_path and --test_path settings. You should download the datasets (or putting your own dataset) in the target path.
-      
-      - '{}' in /YyzData/Derain/datasets/train/{}/ requires the corresponding dataset name (such as Rain100L etc.). 
+      - In the ***32rd and 33rd lines of settings.py***, you can see the --data_path and --test_path settings. You should download the datasets (or putting your own dataset) in the target path.
 
 # Results
    - Recurrent rain removal analysis
-      <p align='center'><img src='./materials/SSIM.pdf'/></p>
+      <div align="center">
+         <img src="./materails/PSNR.png" height="300px" alt="PSNR" >
+         <img src="./materials/SSIM.png" height="300px" alt="SSIM" >
+      </div>
    - Edge loss analysis
    - Average PSNR and SSIM values on five synthetic datasets. 
 
