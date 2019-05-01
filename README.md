@@ -69,10 +69,10 @@
    </div>
       
 ## Edge loss analysis
-   | Rainy | w/o edge loss | with edge loss | ground truth |
-   | :-----: | :-----: | :----: | :-----: |
-   | ![Alt test](./materials/rain.jpg| ![Alt test](./materials/derain_wo_edge.jpg)| ![Alt test](./materials/derain_with_edge.jpg)| ![Alt test](./materials/norain.jpg) ||
-   | ![Alt test](./materials/rain-024.png| ![Alt test](./materials/derain_wo_edge_024.png)| ![Alt test](./materials/derain_with_edge_024.png)| ![Alt test](./materials/norain-024.png) ||
+   | Rainy | w/o edge loss | with edge loss | ground truth ||
+   | :-----: | :-----: | :----: | :-----: ||
+   | ![Alt test](./materials/rain.jpg | ![Alt test](./materials/derain_wo_edge.jpg)| ![Alt test](./materials/derain_with_edge.jpg) | ![Alt test](./materials/norain.jpg) ||
+   | ![Alt test](./materials/rain-024.png | ![Alt test](./materials/derain_wo_edge_024.png)| ![Alt test](./materials/derain_with_edge_024.png) | ![Alt test](./materials/norain-024.png) ||
    
 ## Average PSNR and SSIM values on five synthetic datasets
    | Methods | Rain100L | Rain100H | Rain800 | Rain1200 | Rain1400 |
