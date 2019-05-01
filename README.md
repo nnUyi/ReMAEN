@@ -69,6 +69,7 @@
    </div>
       
 ## Edge loss analysis
+   | low resolution| high resolution GT| high resolution GEN|
    <div align="center">
       <img src="./materials/rain.jpg" height="300px" alt="PSNR" >
       <img src="./materials/derain_wo_edge.jpg" height="300px" alt="SSIM" >
