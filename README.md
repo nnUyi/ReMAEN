@@ -45,14 +45,29 @@
    
    - Test
    ```
-      
+      $ CUDA_VISIBLE_DEVICES=0 python main.py --is_testing True
+                                              --train_dataset Rain100L
+                                              --test_dataset Rain100L
+                                              --trainset_size 200
+                                              --testset_size 100
+                                              --batch_size 32
    ```
+   
    - Train
    ```
-      $ CUDA_VISIBLE_DEVICES=0 python main.py --is_training True \\
-                                              --train_dataset Rain100L\\
-                                              --test_dataset Rain100L\\
+      $ CUDA_VISIBLE_DEVICES=0 python main.py --is_training True
+                                              --train_dataset Rain100L
+                                              --test_dataset Rain100L
+                                              --trainset_size 200
+                                              --testset_size 100
+                                              --iterations 40000
+                                              --lr 0.001
+                                              --batch_size 32
    ```
+   - Where should your datasets place?
+      - In the 32rd and 33rd lines of settings.py, you can see the --data_path and --test_path settings. You should download the datasets (or putting your own dataset) in the target path
+      
+      - Remarkably, '{}' in /YyzData/Derain/datasets/train/{}/ the corresponding dataset name (such as Rain100L etc.)
 # Results
 # Acknowledgement
    - This work was supported in part by National Natural Science Foundation of China (No. U1509206).
