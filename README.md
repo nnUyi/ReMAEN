@@ -1,4 +1,6 @@
 # Single Image Deraining using a Recurrent Multi-scale Aggregation and Enhancement Network (ICME'19)
+   [[pdf](https://github.com/nnUyi/ReMAEN/blob/master/paper/Single%20Image%20Deraining%20using%20a%20Recurrent%20Multi-scale%20Aggregation%20and%20Enhancement%20Network.pdf)]
+   
    Youzhao Yang, [Hong Lu](http://homepage.fudan.edu.cn/honglu/en); School of Computer Science, Fudan University
 
 # Abstract
@@ -21,16 +23,16 @@
 ## Synthetic Datasets
    | Datasets | #train | #test | label |
    | :------- | -----: | ----: | :-----: |
-   | [Rain100L]() | 200    | 100   | rain mask & rain map|
-   | [Rain100H]() | 1800   | 100   | rain mask & rain map|
-   | [Rain800]()  | 700    | 100   | -     |
-   | [Rain1200]() | 12000  | 1200  | rain density |
-   | [Rain1400]() | 12600  | 1400  | - |
+   | [Rain100L](https://github.com/nnUyi/DerainZoo/blob/master/DerainDatasets.md) | 200    | 100   | rain mask & rain map|
+   | [Rain100H](https://github.com/nnUyi/DerainZoo/blob/master/DerainDatasets.md) | 1800   | 100   | rain mask & rain map|
+   | [Rain800](https://github.com/nnUyi/DerainZoo/blob/master/DerainDatasets.md)  | 700    | 100   | -     |
+   | [Rain1200](https://github.com/nnUyi/DerainZoo/blob/master/DerainDatasets.md) | 12000  | 1200  | rain density |
+   | [Rain1400](https://github.com/nnUyi/DerainZoo/blob/master/DerainDatasets.md) | 12600  | 1400  | - |
    
 ## Real-World Datasets
    | Datasets | #train | #test | label |
    | :------- | :-----: | ----: | :-----: |
-   | [Real-World]() | - | 146 | - |
+   | [Real-World](https://github.com/nnUyi/DerainZoo/blob/master/DerainDatasets.md) | - | 67 | - |
 
 # Requirements
    - python 3.6.5
@@ -94,11 +96,20 @@
 ## Average PSNR and SSIM values on five synthetic datasets
    | Methods | Rain100L | Rain100H | Rain800 | Rain1200 | Rain1400 |
    | :-----: | :-----: | :----: | :-----: | :-----: | :-----: |
-   | JORDER (CVPR'17) | 36.11/0.970 | 22.15/0.674 | 22.24/0.776 | 24.32/0.862 | 27.55/0.853 |
-   | DID-MDN (CVPR'18) | 25.70/0.858 | 17.39/0.612 | 21.89/0.795 | 27.95/0.908 | 27.99/0.869 |
-   | DualCNN (CVPR'18) | 26.87/0.860 | 14.23/0.468 | 24.11/0.821 | 23.38/0.787 | 24.98/0.838 |
-   | RESCAN (ECCV'18) | 36.64/0.975 | 26.45/0.846 | 24.09/0.841 | 29.95/0.884 | 28.57/0.891 |
+   | JORDER (CVPR'17)[1] | 36.11/0.970 | 22.15/0.674 | 22.24/0.776 | 24.32/0.862 | 27.55/0.853 |
+   | DID-MDN (CVPR'18)[2] | 25.70/0.858 | 17.39/0.612 | 21.89/0.795 | 27.95/0.908 | 27.99/0.869 |
+   | DualCNN (CVPR'18)[3] | 26.87/0.860 | 14.23/0.468 | 24.11/0.821 | 23.38/0.787 | 24.98/0.838 |
+   | RESCAN (ECCV'18)[4] | 36.64/0.975 | 26.45/0.846 | 24.09/0.841 | 29.95/0.884 | 28.57/0.891 |
    | **OURS (ICEM'19)** | **37.80/0.982** | **28.97/0.884** | **26.86/0.854** | **32.50/0.911** | **32.31/0.916** |
+
+# References
+[1] Wenhan Yang, Robby T. Tan, Jiashi Feng, Jiaying Liu, Zongming Guo, and Shuicheng Yan, “Deep joint rain detection and removal from a single image,” in Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, 2017, pp. 1357–1366.
+
+[2] He Zhang and Vishal M. Patel, “Density-aware single image deraining using a multi-stream dense network,” in The IEEE Conference on Computer Vision and Pattern Recognition, 2018, pp. 695–704.
+
+[3] Jinshan Pan, Sifei Liu, Deqing Sun, Jiawei Zhang, Yang Liu, Jimmy Ren, Zechao Li, Jinhui Tang, Huchuan Lu, and Yu-Wing Tai, “Learning dual convolutional neural networks for low-level vision,” in Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, 2018, pp. 3070–3079.
+
+[4] Xia Li, Jianlong Wu, Zhouchen Lin, Hong Liu, and Hongbin Zha, “Recurrent squeeze-and-excitation context aggregation net for single image deraining,” in The European Conference on Computer Vision (ECCV), 2018, pp. 262–277.
 
 # Acknowledgement
    - This work was supported in part by National Natural Science Foundation of China (No. U1509206).
