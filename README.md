@@ -71,12 +71,19 @@
       - In the ***32rd and 33rd lines of settings.py***, you can see the --data_path and --test_path settings. You should download the datasets (or putting your own dataset) in the target path.
 
 # Results
-   - Recurrent rain removal analysis
+   - **Recurrent rain removal analysis**
       <div align="center">
          <img src="./materials/PSNR.png" height="300px" alt="PSNR" >
          <img src="./materials/SSIM.png" height="300px" alt="SSIM" >
       </div>
-   - Edge loss analysis
+      
+   - **Edge loss analysis**
+      <div align="center">
+         <img src="./materials/rain-024.png" height="300px" alt="PSNR" >
+         <img src="./materials/derain_wo_edge_024.png" height="300px" alt="SSIM" >
+         <img src="./materials/derain_with_edge_024.png" height="300px" alt="SSIM" >
+         <img src="./materials/norain_024.png" height="300px" alt="SSIM" >
+      </div>
    - Average PSNR and SSIM values on five synthetic datasets. 
 
 # Acknowledgement
