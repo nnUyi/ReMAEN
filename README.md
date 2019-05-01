@@ -1,7 +1,9 @@
 # ReMAEN
 Single Image Deraining using a Recurrent Multi-scale Aggregation and Enhancement Network (ReMAEN)
 
-**This paper is accepted by ICME 2019. The code is available soon!!!**
+**This paper is accepted by ICME 2019. The code is available now!!!**
+
+**The pre-trained models and the usages of this source are available soon!!!**
 
 # Citation
 ```
