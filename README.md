@@ -3,7 +3,7 @@ Single Image Deraining using a Recurrent Multi-scale Aggregation and Enhancement
 
 **This paper is accepted by ICME 2019. The code is available now!!!**
 
-**The pre-trained models and the usages of this source are available soon!!!**
+**The pre-trained models and the usages of this source codes are available soon!!!**
 
 # Citation
 ```
