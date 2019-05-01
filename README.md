@@ -4,7 +4,7 @@
 # Abstract
    Single image deraining is an ill-posed inverse problem due to the presence of non-uniform rain shapes, directions, and densities in images. In this paper, we propose a novel progressive single image deraining method named Recurrent Multiscale Aggregation and Enhancement Network (ReMAEN). Differing from previous methods, ReMAEN contains a symmetric structure where recurrent blocks with shared channel attention are applied to select useful information collaboratively and remove rain streaks stage by stage. In ReMAEN, a Multi-scale Aggregation and Enhancement Block (MAEB) is constructed to detect multi-scale rain details. Moreover, to better leverage the rain details from rainy images, ReMAEN enables a symmetric skipping connection from low level to high level. Extensive experiments on synthetic and real-world datasets demonstrate that our method outperforms the state-of-the-art methods tremendously. Furthermore, ablation studies are conducted to show the improvements obtained by each module in ReMAEN.
 
-![The whole structure of recurrent multi-scale aggregation and enhancement network (ReMAEN).](./paper/Single%20Image%20Deraining%20using%20a%20Recurrent%20Multi-scale%20Aggregation%20and%20Enhancement%20Network.pdf)
+![The whole structure of recurrent multi-scale aggregation and enhancement network (ReMAEN).](./paper/ReMAEN.jpg)
 
 # Citation
 ```
