@@ -4,6 +4,8 @@
 # Abstract
    Single image deraining is an ill-posed inverse problem due to the presence of non-uniform rain shapes, directions, and densities in images. In this paper, we propose a novel progressive single image deraining method named Recurrent Multiscale Aggregation and Enhancement Network (ReMAEN). Differing from previous methods, ReMAEN contains a symmetric structure where recurrent blocks with shared channel attention are applied to select useful information collaboratively and remove rain streaks stage by stage. In ReMAEN, a Multi-scale Aggregation and Enhancement Block (MAEB) is constructed to detect multi-scale rain details. Moreover, to better leverage the rain details from rainy images, ReMAEN enables a symmetric skipping connection from low level to high level. Extensive experiments on synthetic and real-world datasets demonstrate that our method outperforms the state-of-the-art methods tremendously. Furthermore, ablation studies are conducted to show the improvements obtained by each module in ReMAEN.
 
+![The whole structure of recurrent multi-scale aggregation and enhancement network (ReMAEN).](./paper/Single%20Image%20Deraining%20using%20a%20Recurrent%20Multi-scale%20Aggregation%20and%20Enhancement%20Network.pdf)
+
 # Citation
 ```
    @inproceedings{yang2019single,
@@ -37,13 +39,13 @@
    - tensorflow_gpu >=1.4.0 & < 2.0
 
 # Usages
-   - Clone this repo
+   - **Clone this repo**
    ```
       $ git clone https://github.com/nnUyi/ReMAEN
       $ cd ReMAEN
    ```
    
-   - Test
+   - **Test**
    ```
       $ CUDA_VISIBLE_DEVICES=0 python main.py --is_testing True
                                               --train_dataset Rain100L
@@ -53,7 +55,7 @@
                                               --batch_size 32
    ```
    
-   - Train
+   - **Train**
    ```
       $ CUDA_VISIBLE_DEVICES=0 python main.py --is_training True
                                               --train_dataset Rain100L
@@ -64,10 +66,13 @@
                                               --lr 0.001
                                               --batch_size 32
    ```
-   - Where should your datasets place?
-      - In the 32rd and 33rd lines of settings.py, you can see the --data_path and --test_path settings. You should download the datasets (or putting your own dataset) in the target path
+   - **Where should your datasets place?**
+      - In the 32rd and 33rd lines of settings.py, you can see the --data_path and --test_path settings. You should download the datasets (or putting your own dataset) in the target path.
       
-      - Remarkably, '{}' in /YyzData/Derain/datasets/train/{}/ the corresponding dataset name (such as Rain100L etc.)
+      - '{}' in /YyzData/Derain/datasets/train/{}/ requires the corresponding dataset name (such as Rain100L etc.). 
+
 # Results
+
+
 # Acknowledgement
    - This work was supported in part by National Natural Science Foundation of China (No. U1509206).
