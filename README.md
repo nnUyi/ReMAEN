@@ -72,28 +72,33 @@
 
 # Results
 ## Recurrent rain removal analysis
-      <div align="center">
-         <img src="./materials/PSNR.png" height="300px" alt="PSNR" >
-         <img src="./materials/SSIM.png" height="300px" alt="SSIM" >
-      </div>
+   <div align="center">
+      <img src="./materials/PSNR.png" height="300px" alt="PSNR" >
+      <img src="./materials/SSIM.png" height="300px" alt="SSIM" >
+   </div>
       
 ## Edge loss analysis
-      <div align="center">
-         <img src="./materials/rain.jpg" height="300px" alt="PSNR" >
-         <img src="./materials/derain_wo_edge.jpg" height="300px" alt="SSIM" >
-         <img src="./materials/derain_with_edge.jpg" height="300px" alt="SSIM" >
-         <img src="./materials/norain.jpg" height="300px" alt="SSIM" >
-      </div>
-      <div align="center">
-         <img src="./materials/rain-024.png" height="300px" alt="PSNR" >
-         <img src="./materials/derain_wo_edge_024.png" height="300px" alt="SSIM" >
-         <img src="./materials/derain_with_edge_024.png" height="300px" alt="SSIM" >
-         <img src="./materials/norain-024.png" height="300px" alt="SSIM" >
-      </div>
-      
-   19.98/0.7644     21.39/0.9022    22.32/0.9244    Inf/1
-   Rainy            w/o edge loss   with edge loss   GT
+   <div align="center">
+      <img src="./materials/rain.jpg" height="300px" alt="PSNR" >
+      <img src="./materials/derain_wo_edge.jpg" height="300px" alt="SSIM" >
+      <img src="./materials/derain_with_edge.jpg" height="300px" alt="SSIM" >
+      <img src="./materials/norain.jpg" height="300px" alt="SSIM" >
+   </div>
+   <div align="center">
+      <img src="./materials/rain-024.png" height="300px" alt="PSNR" >
+      <img src="./materials/derain_wo_edge_024.png" height="300px" alt="SSIM" >
+      <img src="./materials/derain_with_edge_024.png" height="300px" alt="SSIM" >
+      <img src="./materials/norain-024.png" height="300px" alt="SSIM" >
+   </div>
+   
 ## Average PSNR and SSIM values on five synthetic datasets
+   | Methods | Rain100L | Rain100H | Rain800 | Rain1200 | Rain1400 |
+   | :-----: | :-----: | :----: | :-----: | :-----: | :-----: |
+   | JORDER (CVPR'17) | 36.11/0.970 | 22.15/0.674 | 22.24/0.776 | 24.32/0.862 | 27.55/0.853 |
+   | DID-MDN (CVPR'18) | 25.70/0.858 | 17.39/0.612 | 21.89/0.795 | 27.95/0.908 | 27.99/0.869 |
+   | DualCNN (CVPR'18) | 26.87/0.860 | 14.23/0.468 | 24.11/0.821 | 23.38/0.787 | 24.98/0.838 |
+   | RESCAN (ECCV'18) | 36.64/0.975 | 26.45/0.846 | 24.09/0.841 | 29.95/0.884 | 28.57/0.891 |
+   | **OURS (ICEM'19)** | **37.80/0.982** | **28.97/0.884** | **26.86/0.854** | **32.50/0.911** | **32.31/0.916** |
 
 # Acknowledgement
    - This work was supported in part by National Natural Science Foundation of China (No. U1509206).
