@@ -15,8 +15,19 @@
 ```
 
 # Dataset
+## Synthetic Datasets
    | Datasets | #train | #test | label |
-   | -------- | ------ | ----- | ----- |
+   | :------- | -----: | ----: | ----- |
+   | [Rain100L]() | 200    | 100   | rain mask & rain map|
+   | [Rain100H]() | 1800   | 100   | rain mask & rain map|
+   | [Rain800]()  | 700    | 100   | -     |
+   | [Rain1200]() | 12000  | 1200  | rain density |
+   | [Rain1400]() | 12600  | 1400  | - |
+   
+## Real-World Datasets
+   | Datasets | #train | #test | label |
+   | :------- | -----: | ----: | ----- |
+   | [Real-World]() | - | 67 | - |
    
 # Requirements
 # Usages
