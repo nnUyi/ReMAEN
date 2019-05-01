@@ -79,10 +79,16 @@
       
    - **Edge loss analysis**
       <div align="center">
+         <img src="./materials/rain.jpg" height="300px" alt="PSNR" >
+         <img src="./materials/derain_wo_edge.jpg" height="300px" alt="SSIM" >
+         <img src="./materials/derain_with_edge.jpg" height="300px" alt="SSIM" >
+         <img src="./materials/norain.jpg" height="300px" alt="SSIM" >
+      </div>
+      <div align="center">
          <img src="./materials/rain-024.png" height="300px" alt="PSNR" >
          <img src="./materials/derain_wo_edge_024.png" height="300px" alt="SSIM" >
          <img src="./materials/derain_with_edge_024.png" height="300px" alt="SSIM" >
-         <img src="./materials/norain_024.png" height="300px" alt="SSIM" >
+         <img src="./materials/norain-024.png" height="300px" alt="SSIM" >
       </div>
    - Average PSNR and SSIM values on five synthetic datasets. 
 
