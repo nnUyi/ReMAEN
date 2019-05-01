@@ -27,11 +27,32 @@
 ## Real-World Datasets
    | Datasets | #train | #test | label |
    | :------- | :-----: | ----: | :-----: |
-   | [Real-World]() | - | 67 | - |
-   
+   | [Real-World]() | - | 146 | - |
+
 # Requirements
+   - python 3.6.5
+   - opencv 3.4.2
+   - numpy 1.14.3
+   - argparse 1.1
+   - tensorflow_gpu >=1.4.0 & < 2.0
+
 # Usages
+   - Clone this repo
+   ```
+      $ git clone https://github.com/nnUyi/ReMAEN
+      $ cd ReMAEN
+   ```
+   
+   - Test
+   ```
+      
+   ```
+   - Train
+   ```
+      $ CUDA_VISIBLE_DEVICES=0 python main.py --is_training True \\
+                                              --train_dataset Rain100L\\
+                                              --test_dataset Rain100L\\
+   ```
 # Results
 # Acknowledgement
    - This work was supported in part by National Natural Science Foundation of China (No. U1509206).
-**The pre-trained models and the usages of this source codes are available soon!!!**
