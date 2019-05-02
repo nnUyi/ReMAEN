@@ -27,7 +27,7 @@
 **We note that these models is trained on NVIDIA GeForce GTX1080Ti:**
 
 | Datasets | Pre-trained model |
-| :------ | :---------------: |
+| :------ | :--------------- |
 | Rain100L | [Rain100L model](https://github.com/nnUyi/ReMAEN/tree/master/codes/checkpoint/) |
 | Rain100H | [Rain100H model TAB](https://github.com/nnUyi/ReMAEN/tree/master/codes/checkpoint/) |
 | Rain800 | [Rain800 model TAB](https://github.com/nnUyi/ReMAEN/tree/master/codes/checkpoint/) |
