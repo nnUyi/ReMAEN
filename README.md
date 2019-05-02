@@ -32,6 +32,8 @@
 | Rain1200 | [model TAB](https://github.com/nnUyi/ReMAEN/tree/master/codes/checkpoint/) |
 | Rain1400 | [model TAB](https://github.com/nnUyi/ReMAEN/tree/master/codes/checkpoint/) |
 
+***We note that this model is trained on NVIDIA GeForce GTX1080Ti***
+
 # Requirements
    - python 3.6.5
    - opencv 3.4.2
@@ -44,18 +46,9 @@
    ```
       $ git clone https://github.com/nnUyi/ReMAEN
       $ cd ReMAEN
+      $ cd codes
    ```
-   
-   - **Test**
-   ```
-      $ CUDA_VISIBLE_DEVICES=0 python main.py --is_testing True
-                                              --train_dataset Rain100L
-                                              --test_dataset Rain100L
-                                              --trainset_size 200
-                                              --testset_size 100
-                                              --batch_size 32
-   ```
-   
+
    - **Train**
    ```
       $ CUDA_VISIBLE_DEVICES=0 python main.py --is_training True
@@ -67,8 +60,19 @@
                                               --lr 0.001
                                               --batch_size 32
    ```
+
+   - **Test**
+   ```
+      $ CUDA_VISIBLE_DEVICES=0 python main.py --is_testing True
+                                              --train_dataset Rain100L
+                                              --test_dataset Rain100L
+                                              --trainset_size 200
+                                              --testset_size 100
+                                              --batch_size 32
+   ```
+   
    - **Where should your datasets place?**
-      - In the ***32rd and 33rd lines of settings.py***, you can see the --data_path and --test_path settings. You should download the datasets (or putting your own dataset) in the target path.
+      - In the ***32rd and 33rd lines of settings.py***, you can see the --data_path and --test_path settings. You should download the datasets (or putting your own dataset) in the target path. And you should add your dataset format in ***train_dic & test_dic*** in the ***50th and 59th lines of settings.py***.
 
 # Results
 ## Recurrent rain removal analysis
