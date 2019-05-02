@@ -23,6 +23,15 @@
    | :------- | :-----: | ----: | :-----: |
    | [Real-World](https://github.com/nnUyi/DerainZoo/blob/master/DerainDatasets.md) | - | 67 | - |
 
+# Pre-trained Model
+| Datasets | Pre-trained model |
+| :------: | :---------------: |
+| Rain100L | [model](https://github.com/nnUyi/ReMAEN/tree/master/codes/checkpoint/) |
+| Rain100H | [model TAB](https://github.com/nnUyi/ReMAEN/tree/master/codes/checkpoint/) |
+| Rain800 | [model TAB](https://github.com/nnUyi/ReMAEN/tree/master/codes/checkpoint/) |
+| Rain1200 | [model TAB](https://github.com/nnUyi/ReMAEN/tree/master/codes/checkpoint/) |
+| Rain1400 | [model TAB](https://github.com/nnUyi/ReMAEN/tree/master/codes/checkpoint/) |
+
 # Requirements
    - python 3.6.5
    - opencv 3.4.2
