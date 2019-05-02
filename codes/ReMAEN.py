@@ -19,7 +19,7 @@ from metrics import SSIM, PSNR
 from settings import *
 
 class DerainNet:
-    model_name = 'DerainNet'
+    model_name = 'ReMAEN'
     
     '''Derain Net: all the implemented layer are included (e.g. MAEB,
                                                                 convGRU
