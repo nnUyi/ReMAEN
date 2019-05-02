@@ -24,15 +24,14 @@
    | [Real-World](https://github.com/nnUyi/DerainZoo/blob/master/DerainDatasets.md) | - | 67 | - |
 
 # Pre-trained Model
+**We note that these models is trained on NVIDIA GeForce GTX1080Ti:**
 | Datasets | Pre-trained model |
-| :------: | :---------------: |
-| Rain100L | [model](https://github.com/nnUyi/ReMAEN/tree/master/codes/checkpoint/) |
-| Rain100H | [model TAB](https://github.com/nnUyi/ReMAEN/tree/master/codes/checkpoint/) |
-| Rain800 | [model TAB](https://github.com/nnUyi/ReMAEN/tree/master/codes/checkpoint/) |
-| Rain1200 | [model TAB](https://github.com/nnUyi/ReMAEN/tree/master/codes/checkpoint/) |
-| Rain1400 | [model TAB](https://github.com/nnUyi/ReMAEN/tree/master/codes/checkpoint/) |
-
-***We note that this model is trained on NVIDIA GeForce GTX1080Ti***
+| :------ | :---------------: |
+| Rain100L | [Rain100L model](https://github.com/nnUyi/ReMAEN/tree/master/codes/checkpoint/) |
+| Rain100H | [Rain100H model TAB](https://github.com/nnUyi/ReMAEN/tree/master/codes/checkpoint/) |
+| Rain800 | [Rain800 model TAB](https://github.com/nnUyi/ReMAEN/tree/master/codes/checkpoint/) |
+| Rain1200 | [Rain1200 model TAB](https://github.com/nnUyi/ReMAEN/tree/master/codes/checkpoint/) |
+| Rain1400 | [Rain1400 model TAB](https://github.com/nnUyi/ReMAEN/tree/master/codes/checkpoint/) |
 
 # Requirements
    - python 3.6.5
