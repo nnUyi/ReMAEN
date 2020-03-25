@@ -110,7 +110,7 @@
    - This work was supported in part by National Natural Science Foundation of China (No. U1509206).
 
 # Citation
-**If you find the resource useful, please cite the following:**
+**If you find the resource usefully, please cite the following:**
 ```
    @inproceedings{yang2019single,
       title={Single Image Deraining using a Recurrent Multi-scale Aggregation and Enhancement Network},
